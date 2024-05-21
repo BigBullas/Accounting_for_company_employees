@@ -1,0 +1,32 @@
+.card {
+  background-color: #fbfbfb;
+  padding: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: none; /* Без тени по умолчанию */
+  transition: box-shadow 0.3s ease; /* Анимация изменения тени */
+}
+
+.card_checked {
+  background-color: #e9e9e9;
+}
+
+.card:hover {
+  background-color: #f3f8ff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+}
+
+.card__checkbox_container {
+  text-align: left;
+}
+
+.card__img_container {
+  opacity: 0.6;
+}
+
+.modal__p {
+  width: 100px;
+
+  display: flex;
+  justify-content: space-between;
+}
